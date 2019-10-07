@@ -17,8 +17,8 @@ public class FetchID {
     public static String GetName(String emailIDFind) throws IOException {
     	String name = "Name not found"; //incase name is not found    
     	
-		String emailID = "https://www.ecs.soton.ac.uk/people/" + emailIDFind;
-		URL emailURL = new URL(emailID);		
+	String emailID = "https://www.ecs.soton.ac.uk/people/" + emailIDFind;
+	URL emailURL = new URL(emailID);		
 		
         BufferedReader in = new BufferedReader(
         new InputStreamReader(emailURL.openStream())); 
