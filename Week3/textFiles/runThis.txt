@@ -1,0 +1,21 @@
+clear x;
+clear y;
+clear z;
+y + 1;
+clear count;
+
+count + 20;
+
+while count not 0 do;
+	clear z;
+	z + y;
+	clear y;
+	y + x;
+	clear x;
+	x + y;
+	x + z;
+	print x;
+	
+	decr count;
+	
+end;
